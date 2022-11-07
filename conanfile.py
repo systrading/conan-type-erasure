@@ -4,9 +4,9 @@ from conans import ConanFile, tools
 
 
 class TE(ConanFile):
-    name = "TE"
+    name = "type_erasure"
     version = "latest"
-    url = "https://github.com/boost-ext/te"
+    url = "https://github.com/systrading/type-erasure"
     license = "Boost"
     description = "[Boost::ext].TE: C++17 Type Erasure Library"
     settings = "os", "compiler", "arch", "build_type"
