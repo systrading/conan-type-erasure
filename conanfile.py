@@ -14,6 +14,6 @@ class TE(ConanFile):
     no_copy_source = True
 
     def package(self):
-        self.copy("*.hpp")
+        self.copy("*.h")
 
 
