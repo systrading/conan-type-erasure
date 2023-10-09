@@ -1,4 +1,4 @@
 #!/bin/bash
 
-conan upload -c "type_erasure" --check --all --remote staconan
-
+conan create . --build=missing && \
+  conan upload -c "type_erasure" --check --all --remote staconan
